@@ -9,7 +9,7 @@ A portfolio built in React and NextJS. Simple, clean and fast.
   
 ## Demo
 
-[Live Preview](https://www.vipuljha.com](https://junyan-liang.vercel.app)
+[Live Preview](https://junyan-liang.vercel.app)
 
 ## Run Project 
 
