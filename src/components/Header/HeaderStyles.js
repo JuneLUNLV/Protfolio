@@ -8,6 +8,14 @@ export const Container = styled.div`
   grid-column-gap: 2rem;
   padding: 1rem;
   padding-top: 2rem;
+  position: fixed;
+  background-color: #0f1624;
+  z-index: 99;
+  width: 100%;
+  margin-left: auto;
+  margin-right:auto;
+
+  max-width:1280px;
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
@@ -50,7 +58,7 @@ export const Div3 = styled.div`
 export const NavLink = styled.a`
   font-size: 2rem;
   line-height: 32px;
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.6);
   transition: 0.4s ease;
   &:hover {
     color: #fff;

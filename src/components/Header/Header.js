@@ -1,33 +1,37 @@
-import Link from 'next/link';
+// import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle } from 'react-icons/ai';
 import {SiDiscord} from 'react-icons/si'
+import { Link } from "react-scroll";
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 
 const Header = () => (
   <Container>
     <Div1>
-      <Link href="/">
         <a style={{ display: 'flex', alignItems: 'center', color: "white" }}>
           <span style={{ marginLeft: 10, marginTop: 7, fontSize: 20 }} >June Liang</span>
         </a>
-      </Link>
     </Div1>
-    <Div2>
+    <Div2> 
       <li>
-        <Link href="#projects">
-          <NavLink>Projects</NavLink>
+        <Link activeClass="active" smooth spy={true} to="hello" duration={0} style={{"fontSize":"2rem","lineHeight":"32px","color":"rgba(255, 255, 255, 0.75)","transition":"all 0.4s ease 0s",cursor:"pointer"}}>
+          Hello
         </Link>
       </li>
       <li>
-        <Link href="#skills">
-          <NavLink>Skills</NavLink>
+        <Link activeClass="active" smooth spy={true} to="projects" duration={-400} style={{"fontSize":"2rem","lineHeight":"32px","color":"rgba(255, 255, 255, 0.75)","transition":"all 0.4s ease 0s",cursor:"pointer"}}>
+          Projects
         </Link>
       </li>
       <li>
-        <Link href="#about">
-          <NavLink>About</NavLink>
+        <Link activeClass="active" smooth spy={true} to="skills" offset={-200}  duration={0} style={{"fontSize":"2rem","lineHeight":"32px","color":"rgba(255, 255, 255, 0.75)","transition":"all 0.4s ease 0s",cursor:"pointer"}}>
+          Skills
+        </Link>
+      </li>
+      <li>
+        <Link activeClass="active" smooth spy={true} to="about" offset={-400}  duration={0} style={{"fontSize":"2rem","lineHeight":"32px","color":"rgba(255, 255, 255, 0.75)","transition":"all 0.4s ease 0s",cursor:"pointer"}}>
+          About
         </Link>
       </li>
       {/* <li>

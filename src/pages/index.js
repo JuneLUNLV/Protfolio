@@ -12,7 +12,8 @@ import Fade from 'react-reveal/Fade';
 const Home = () => {
   return (
     <Layout>
-      <Section grid style={{overflow: "revert"}}>
+    {/* https://www.vipuljha.com/ */}
+      <Section id="hello" grid style={{overflow: "revert",paddingTop:'180px'}}>
         <Hero />
         {/* <BgAnimation /> */}
         <HeroAnimation/>
