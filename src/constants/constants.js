@@ -5,17 +5,26 @@ export const projects = [
     image: '/images/OpenBook.png',
     tags: ['React', 'NextJS', 'MUI', 'Solidity'],
     source: 'https://github.com/JuneLUNLV/OpenBook',
-    visit: 'https://openbook-unlv.vercel.app/landing',
+    visit: 'https://openbook.bet/',
+    visit2: "https://app.openbook.bet/",
     id: 0,
+  },
+  {
+    title: 'Goblin Sax',
+    description: "Goblin Sax is an NFT financialization collective and we currently make NFT-collateralized loans to NFT holders.",
+    image: '/images/GoblinSax.png',
+    tags: ['React', 'NextJS', 'MUI'],
+    visit: 'https://goblinsax.xyz/',
+    id: 1,
   },
   {
     title: 'Portfolio Website',
     description: "This is my personal profolio website. It contains all my work and project experience, including my resume.",
     image: '/images/portfolio.png',
     tags: ['React', 'NextJS', 'HTML', 'CSS'],
-    source: '#',
+    source: 'https://github.com/JuneLUNLV/Protfolio',
     visit: '#',
-    id: 1,
+    id: 2,
   },
   {
     title: 'University Mentor Management System',
@@ -24,7 +33,7 @@ export const projects = [
     tags: ['HTML', 'CSS', 'Flask', 'MongoDB'],
     source: 'https://github.com/JuneLUNLV/Mentor-Assignment-Web-Project',
     visit: '#',
-    id: 2,
+    id: 3,
   },
 ];
 

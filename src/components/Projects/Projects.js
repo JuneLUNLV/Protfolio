@@ -28,8 +28,36 @@ const Projects = () => (
               </TagList>
             </div>
             <UtilityList>
-              { p.id == 2 ? void(0) : <ExternalLinks href={p.visit}>Live Preview</ExternalLinks>}
-              <ExternalLinks href={p.source}>Source Code</ExternalLinks>
+              {p.id == 0 ?  
+                <>
+                  <ExternalLinks href={p.visit1}>Visit Landing Pge</ExternalLinks>
+                  <ExternalLinks href={p.visit12}>Visit App</ExternalLinks>    
+                </>
+              : 
+                void(0)
+              }
+              {p.id == 1 ?  
+                <>
+                  <ExternalLinks href={p.visit}>Visit Page</ExternalLinks>
+                </>
+              : 
+                void(0)
+              }
+              {p.id == 2 ?  
+                <>
+                  <ExternalLinks href={p.visit}>Visit Page</ExternalLinks>
+                  <ExternalLinks href={p.source}>View Source Code</ExternalLinks>
+                </>
+              : 
+                void(0)
+              }
+              {p.id == 3 ?  
+                <>
+                  <ExternalLinks href={p.source}>View Source Code</ExternalLinks>
+                </>
+              : 
+                void(0)
+              }
             </UtilityList>
           </BlogCard>
         );

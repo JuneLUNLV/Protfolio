@@ -1,0 +1,9 @@
+.heroAnimation{
+
+}
+
+@media screen and (max-width: 900px) {
+    .heroAnimation{
+        display:none !important;
+    }
+}

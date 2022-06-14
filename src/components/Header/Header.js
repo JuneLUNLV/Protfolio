@@ -28,11 +28,11 @@ const Header = () => (
           <NavLink>About</NavLink>
         </Link>
       </li>
-      <li>
+      {/* <li>
         <a href="https://blog.vipuljha.com">
           <NavLink>Blog</NavLink>
         </a>
-      </li>
+      </li> */}
     </Div2>
     <Div3>
       <SocialIcons href="https://github.com/JuneLUNLV">

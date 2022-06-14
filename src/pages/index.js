@@ -7,6 +7,7 @@ import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 import HeroAnimation from '../components/HeroAnimation/HeroAnimation';
+import Fade from 'react-reveal/Fade';
 
 const Home = () => {
   return (
@@ -16,10 +17,12 @@ const Home = () => {
         {/* <BgAnimation /> */}
         <HeroAnimation/>
       </Section>
-      <Projects />
-      <Technologies />
-      <Timeline />
-      <Acomplishments />
+      <Fade bottom>
+        <Projects />
+        <Technologies />
+        <Timeline />
+        <Acomplishments />
+      </Fade>
     </Layout>
   );
 };

@@ -16,7 +16,7 @@ let neon = keyframes`
 const HeroAnimation = (props) => (
 
   <>
-    <div className="container">
+    <div className="container heroAnimation">
     <style global jsx>{`
 @font-face {
   font-family: neon;
