@@ -3,6 +3,7 @@ import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle } fr
 import { Link } from '../../styles/GlobalComponents';
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import {SiDiscord} from 'react-icons/si'
 
 const Footer = () => {
   return (
@@ -25,7 +26,13 @@ const Footer = () => {
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/JuneLUNLV">
-            <AiFillGithub size="3rem" />
+          <AiFillGithub size="3rem" />
+          </SocialIcons>
+          <SocialIcons href="https://www.linkedin.com/in/junyan-liang-21561121a/">
+            <AiFillLinkedin size="3rem" />
+          </SocialIcons>
+          <SocialIcons href="https://discordapp.com/users/263587997750919169/">
+            <SiDiscord size="3rem" />
           </SocialIcons>
           {/* <SocialIcons href="https://www.linkedin.com/in/lordarcadius/">
             <AiFillLinkedin size="3rem" />

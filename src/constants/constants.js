@@ -20,7 +20,7 @@ export const projects = [
   {
     title: 'Portfolio Website',
     description: "This is my personal profolio website. It contains all my work and project experience, including my resume.",
-    image: '/images/portfolio.png',
+    image: '/images/portfolio_real.png',
     tags: ['React', 'NextJS', 'HTML', 'CSS'],
     source: 'https://github.com/JuneLUNLV/Protfolio',
     visit: '#',
@@ -28,8 +28,8 @@ export const projects = [
   },
   {
     title: 'University Mentor Management System',
-    description: "This is my indepedent project from my under graduate time. It handles assigning mentors to students",
-    image: '/images/UMMS.png',
+    description: "This is my indepedent project from my under graduate time. It's a system that handles assigning mentors to students.",
+    image: '/images/UMMS_real.png',
     tags: ['HTML', 'CSS', 'Flask', 'MongoDB'],
     source: 'https://github.com/JuneLUNLV/Mentor-Assignment-Web-Project',
     visit: '#',

@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle } from 'react-icons/ai';
+import {SiDiscord} from 'react-icons/si'
+
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 
 const Header = () => (
@@ -38,10 +40,13 @@ const Header = () => (
       <SocialIcons href="https://github.com/JuneLUNLV">
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      {/* <SocialIcons href="https://www.linkedin.com/in/lordarcadius/">
+      <SocialIcons href="https://www.linkedin.com/in/junyan-liang-21561121a/">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://www.instagram.com/lordarcadius">
+      <SocialIcons href="https://discordapp.com/users/263587997750919169/">
+        <SiDiscord size="3rem" />
+      </SocialIcons>
+      {/* <SocialIcons href="https://www.instagram.com/lordarcadius">
         <AiFillInstagram size="3rem" />
       </SocialIcons>
       <SocialIcons href="https://www.twitter.com/lordarcadius">
