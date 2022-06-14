@@ -11,7 +11,7 @@ export const projects = [
   },
   {
     title: 'Goblin Sax',
-    description: "Goblin Sax is an NFT financialization collective and we currently make NFT-collateralized loans to NFT holders.",
+    description: "Goblin Sax is an NFT financialization collective that currently make NFT-collateralized loans to NFT holders.",
     image: '/images/GoblinSax.png',
     tags: ['React', 'NextJS', 'MUI'],
     visit: 'https://goblinsax.xyz/',
