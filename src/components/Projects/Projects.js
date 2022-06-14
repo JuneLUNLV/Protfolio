@@ -30,30 +30,30 @@ const Projects = () => (
             <UtilityList>
               {p.id == 0 ?  
                 <>
-                  <ExternalLinks href={p.visit1}>Visit Landing Pge</ExternalLinks>
-                  <ExternalLinks href={p.visit12}>Visit App</ExternalLinks>    
+                  <ExternalLinks target="_blank" rel="noopener noreferrer" href={p.visit}>Visit Landing Pge</ExternalLinks>
+                  <ExternalLinks target="_blank" rel="noopener noreferrer" href={p.visit2}>Visit App</ExternalLinks>    
                 </>
               : 
                 void(0)
               }
               {p.id == 1 ?  
                 <>
-                  <ExternalLinks href={p.visit}>Visit Page</ExternalLinks>
+                  <ExternalLinks target="_blank" rel="noopener noreferrer" href={p.visit}>Visit Page</ExternalLinks>
                 </>
               : 
                 void(0)
               }
               {p.id == 2 ?  
                 <>
-                  <ExternalLinks href={p.visit}>Visit Page</ExternalLinks>
-                  <ExternalLinks href={p.source}>View Source Code</ExternalLinks>
+                  <ExternalLinks target="_blank" rel="noopener noreferrer" href={p.visit}>Visit Page</ExternalLinks>
+                  <ExternalLinks target="_blank" rel="noopener noreferrer" href={p.source}>View Source Code</ExternalLinks>
                 </>
               : 
                 void(0)
               }
               {p.id == 3 ?  
                 <>
-                  <ExternalLinks href={p.source}>View Source Code</ExternalLinks>
+                  <ExternalLinks target="_blank" rel="noopener noreferrer" href={p.source}>View Source Code</ExternalLinks>
                 </>
               : 
                 void(0)

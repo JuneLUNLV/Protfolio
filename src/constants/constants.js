@@ -3,7 +3,7 @@ export const projects = [
     title: 'OpenBook',
     description: "OpenBook is a free, open-source, decentralized sportsbook for online sports betting using web3 technology.",
     image: '/images/OpenBook.png',
-    tags: ['React', 'NextJS', 'MUI', 'Solidity'],
+    tags: ['React', 'NextJS', 'MUI', 'Solidity', 'Web3'],
     source: 'https://github.com/JuneLUNLV/OpenBook',
     visit: 'https://openbook.bet/',
     visit2: "https://app.openbook.bet/",
