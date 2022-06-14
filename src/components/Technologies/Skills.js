@@ -31,7 +31,7 @@ export const Skills = [
     slug: "photoshop",
     Component: DiPhotoshop,
     title: "Photoshop",
-    Description: () => <>I learned Photoshop on Udemy, I use Photoshop for my front-end projects.</>,
+    Description: () => <>I learned Photoshop on Udemy, I use Photoshop for editing pictures for frontend projects.</>,
   },
   {
     slug: "git",
