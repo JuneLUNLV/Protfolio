@@ -37,11 +37,11 @@ export default class MyDocument extends Document {
           <meta property="og:type" content="website" />
           <meta property="og:title" content="June Liang - React developer" />
           <meta property="og:description" content="Hey there, This is June Liang. I am an React and NextJs developer who also have an interest in web3 and cyber security." />
-          {/* <meta property="og:image" content="https://www.vipuljha.com/images/banner.png" /> */}
+          <meta property="og:image" content="https://junyan-liang.vercel.app/images/banner.png" />
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:title" content="June Liang - React developer" />
           <meta property="twitter:description" content="Hey there, This is June Liang. I am an React and NextJs developer who also have an interest in web3 and cyber security." />
-          {/* <meta property="twitter:image" content="https://www.vipuljha.com/images/banner.png" /> */}
+          <meta property="twitter:image" content="https://junyan-liang.vercel.app/images/banner.png" />
         </Head>
         <body>
           <Main />
