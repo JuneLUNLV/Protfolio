@@ -39,8 +39,9 @@ export const Div2 = styled.div`
   display: flex;
   margin-top: 0.75em;
   justify-content: space-between;
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media ${(props) => props.theme.breakpoints.md} {
     grid-area: 2 / 2 / 3 / 5;
+    justify-content: center; 
   }
 `;
 export const Div3 = styled.div`

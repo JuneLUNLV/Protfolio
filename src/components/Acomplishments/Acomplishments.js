@@ -11,7 +11,7 @@ const data = [
 ];
 
 const Acomplishments = () => (
-  <Section>
+  <Section className="acomplishmentsSection">
     <SectionTitle>Personal Achievements</SectionTitle>
     <Boxes>
       {data.map((card, index) => (

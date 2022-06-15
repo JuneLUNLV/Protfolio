@@ -2,9 +2,42 @@
 
 }
 
+.acomplishmentsSection{
+    margin-bottom: 100px !important;
+}
+
 @media screen and (max-width: 900px) {
     .heroAnimation{
-        display:none !important;
+        /* display:none !important; */
+    }
+
+    .container{
+        margin-left:0px !important;
+        margin-top:0px !important;
+        margin-bottom: 40px !important;
+    }
+
+    .flux{
+        font-size:100px !important;
+    }
+
+    .neon{
+        font-size:100px !important;
+        margin-bottom: 50px;
+    }
+
+    #hello{
+        display: flex !important;
+        padding-top: 140px !important;
+    }
+
+    .headerLink{
+        margin-right: 20px !important;
+
+    }
+
+    .acomplishmentsSection{
+        margin-bottom: 16px !important;
     }
 }
 

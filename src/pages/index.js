@@ -22,7 +22,7 @@ const Home = () => {
         <Projects />
         <Technologies />
         <Timeline />
-        <Acomplishments />
+        <Acomplishments/>
       </Fade>
     </Layout>
   );

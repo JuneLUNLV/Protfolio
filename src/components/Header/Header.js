@@ -5,8 +5,10 @@ import {SiDiscord} from 'react-icons/si'
 import { Link } from "react-scroll";
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
+const Header = () => {
+  const offSetArr= [-200,-200,-200,-200]
 
-const Header = () => (
+  return (
   <Container>
     <Div1>
         <a style={{ display: 'flex', alignItems: 'center', color: "white" }}>
@@ -14,23 +16,23 @@ const Header = () => (
         </a>
     </Div1>
     <Div2> 
-      <li>
-        <Link activeClass="active" smooth spy={true} to="hello" duration={0} style={{"fontSize":"2rem","lineHeight":"32px","color":"rgba(255, 255, 255, 0.75)","transition":"all 0.4s ease 0s",cursor:"pointer"}}>
+      <li className="headerLink">
+        <Link activeClass="active" smooth spy={true} to="hello" offset={offSetArr[0]} duration={0} style={{"fontSize":"2rem","lineHeight":"32px","color":"rgba(255, 255, 255, 0.75)","transition":"all 0.4s ease 0s",cursor:"pointer"}}>
           Hello
         </Link>
       </li>
-      <li>
-        <Link activeClass="active" smooth spy={true} to="projects" duration={-400} style={{"fontSize":"2rem","lineHeight":"32px","color":"rgba(255, 255, 255, 0.75)","transition":"all 0.4s ease 0s",cursor:"pointer"}}>
+      <li className="headerLink">
+        <Link activeClass="active" smooth spy={true} to="projects" offset={offSetArr[1]} duration={0} style={{"fontSize":"2rem","lineHeight":"32px","color":"rgba(255, 255, 255, 0.75)","transition":"all 0.4s ease 0s",cursor:"pointer"}}>
           Projects
         </Link>
       </li>
-      <li>
-        <Link activeClass="active" smooth spy={true} to="skills" offset={-200}  duration={0} style={{"fontSize":"2rem","lineHeight":"32px","color":"rgba(255, 255, 255, 0.75)","transition":"all 0.4s ease 0s",cursor:"pointer"}}>
+      <li className="headerLink">
+        <Link activeClass="active" smooth spy={true} to="skills" offset={offSetArr[2]}  duration={0} style={{"fontSize":"2rem","lineHeight":"32px","color":"rgba(255, 255, 255, 0.75)","transition":"all 0.4s ease 0s",cursor:"pointer"}}>
           Skills
         </Link>
       </li>
-      <li>
-        <Link activeClass="active" smooth spy={true} to="about" offset={-400}  duration={0} style={{"fontSize":"2rem","lineHeight":"32px","color":"rgba(255, 255, 255, 0.75)","transition":"all 0.4s ease 0s",cursor:"pointer"}}>
+      <li className="headerLink">
+        <Link activeClass="active" smooth spy={true} to="about" offset={offSetArr[3]}  duration={0} style={{"fontSize":"2rem","lineHeight":"32px","color":"rgba(255, 255, 255, 0.75)","transition":"all 0.4s ease 0s",cursor:"pointer"}}>
           About
         </Link>
       </li>
@@ -58,6 +60,6 @@ const Header = () => (
       </SocialIcons> */}
     </Div3>
   </Container>
-);
+)};
 
 export default Header;
