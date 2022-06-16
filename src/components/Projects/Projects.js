@@ -4,6 +4,29 @@ import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag,
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
+const neonBorderColor = [
+  {
+    boxShadow: 'rgb(63 81 181 / 60%) 3px 3px 20px;',
+    animation: "project1Box 2s ease infinite;",
+    minHeight: "650px"
+  },
+  {
+    boxShadow:'rgb(0 151 136 / 60%) 3px 3px 20px;',
+    animation: "project2Box 2s ease infinite;",
+    minHeight: "650px"
+  },
+  {
+    boxShadow:'rgb(33 150 243 / 60%) 3px 3px 20px;',
+    animation: "project3Box 2s ease infinite;",
+    minHeight: "650px"
+  },
+  {
+    boxShadow:'rgb(193 57 43 / 60%) 3px 3px 20px;',
+    animation: "project4Box 2s ease infinite;",
+    minHeight: "650px"
+  }
+]
+
 const Projects = () => (
   <Section id="projects">
     <SectionDivider />
@@ -11,7 +34,7 @@ const Projects = () => (
     <GridContainer>
       {projects.map((p, i) => {
         return (
-          <BlogCard key={i}>
+          <BlogCard style={neonBorderColor[i]} key={i}>
             <Img src={p.image} />
 
             <HeaderThree title={p.title}>{p.title}</HeaderThree>
